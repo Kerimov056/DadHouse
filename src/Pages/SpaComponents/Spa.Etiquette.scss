@@ -1,0 +1,28 @@
+.SpaEtiquette_main {
+    background-color: #f8f5f0;
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &>div {
+        width: 1150px;
+        height: 100%;
+        background-color: #f8f5f0;
+
+        &>p {
+            margin-top: 140px;
+        }
+
+        &>h1 {
+            font-size: 50px;
+            font-weight: 250;
+            margin-top: 7px;
+        }
+
+        &>div{
+            margin-top: 30px;
+        }
+    }
+}

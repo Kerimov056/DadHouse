@@ -1,0 +1,44 @@
+.Etiquette_main {
+    width: 100%;
+    min-height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &>div {
+        width: 92%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+
+        .Etiquette_Name{
+            font-size: 21px;
+        }
+
+        .Etiquette_Open{
+            
+            &>button{
+                background: none;
+                border: none;
+                font-size: 25px;
+            }
+            
+           
+        }
+    }
+
+    .Etiquette_text{
+        display: none;
+
+        &>p{
+            margin-top: 14px;
+            margin-bottom: 16px;
+            color: rgb(94, 93, 93);
+        }
+    }    
+}
